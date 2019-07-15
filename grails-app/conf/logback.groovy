@@ -34,4 +34,5 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
 }
+//logger("io.micronaut.context.condition", TRACE, ['STDOUT'], false)
 root(ERROR, ['STDOUT'])
